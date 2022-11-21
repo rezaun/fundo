@@ -302,7 +302,66 @@ label {
 	margin-right: 3px;
 }
 
-
+.menu-box{
+	border: 2px solid #777781;
+	padding: 0 40px;
+}
+.f-btn {
+	background: #ec6e39;
+	color: #fff;
+	padding: 20px 30px;
+	line-height: 1;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 700;
+	border-radius: 30px;
+}
+.main-menu ul li{
+	display: inline-block;
+	margin-left: 50px;
+	position: relative;
+}
+.main-menu ul li a{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 12px;
+	display: inline-block;
+	padding: 30px 0;
+}
+.main-menu ul li:hover > a{
+	color: #ec6e39;
+}
+.main-menu ul li .submenu{
+	position: absolute;
+	background-color: #fff;
+	width: 250px;
+	padding: 15px 0;
+	border-top:4px solid #ec6e39;
+	top: 110%;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.3s	
+}
+.main-menu ul li:hover .submenu{
+	opacity: 1;
+	visibility: visible;
+	top: 100%;
+}
+.main-menu ul li .submenu li{
+	display: block;
+	margin: 0;
+}
+.main-menu ul li .submenu li a{
+	color: #111;
+	display: block;
+	padding: 10px 25px;
+}
+.main-menu ul li .submenu li:hover > a{
+	color: #ec6e39;
+}
 
 
 

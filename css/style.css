@@ -254,7 +254,53 @@ label {
 	background: #444;
 }
 
+/* Header css */
+.transparent-header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.header-info-text span{
+	color: #99a39f;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 2px;
+	display: block;
+	margin-bottom: 10px;
+}
+.header-info h4{
+	color: #fff;
+	font-size: 18px;
+	margin: 0;
+}
+.header-info-icon i{
+	color: #f87206;
+	font-size: 14px;
+}
+.header-info-icon{
+	margin-right: 15px;
+}
+.header-info-text{
+	color: #fff;
 
+}
+.header-info ul li{
+	display: inline-block;
+	margin-right: 40px;
+}
+.header-login a{
+	color: #cbd6e3;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+.header-login a i{
+	margin-right: 3px;
+}
 
 
 
